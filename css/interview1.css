@@ -1,0 +1,86 @@
+
+body {
+  background: silver;
+  /* The above is called a hex code.
+     There are two other ways to do colors in CSS: rgb and common names
+     Find "Digital Color Meter" on your computer to explore more */
+  color: white;
+  font-size: 22px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#container {
+  max-width: 650px;
+  margin-left: 0.5em;
+}
+
+img {
+  max-width: 100%;
+}
+
+#table-of-contents {
+  position: fixed;
+  max-width: 120px;
+  top: 1em;
+  right: 1em;
+  color: white;
+  padding: 1em;
+  font-size: 0.7em;
+}
+
+#table-of-contents a {
+  color: white;
+  text-decoration: none;
+}
+
+#table-of-contents a:hover {
+  color: black;
+}
+
+#table-of-contents ul {
+  padding: 0;
+  list-style-type: none;
+  /* you could also change the type of bullet with the above declaration! */
+}
+
+#questions {
+  color: grey;
+}
+
+h1 {
+  /* here I'm making the title not bold (by default headings are always bold)
+     centered, larger, tighter leading, and with some bottom space or margin */
+  font-weight: normal;
+  text-align: left;
+  font-size: 2em;
+  line-height: 1.1;
+  margin-bottom: 1.5em;
+}
+
+h2 {
+  /* here I'm making my section headers very clear with a white background.
+     added some padding and removed the default bold again, and
+     added some top margin */
+  background: none;
+  padding: 0;
+  font-weight: normal;
+  color: black;
+  margin-top: 1em;
+}
+
+a {
+  color: yellow;
+  text-decoration: none;
+  /* By default, links are blue and have an underline.
+     The above CSS changes both those things. */
+}
+
+a:hover {
+  color: white;
+}
+
+.highlight {
+  background: yellow;
+  color: #000000;
+  /* or pick a different color */
+}
