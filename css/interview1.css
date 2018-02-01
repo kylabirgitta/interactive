@@ -20,7 +20,7 @@ img {
 
 #table-of-contents {
   position: fixed;
-  max-width: 120px;
+  max-width: 180px;
   top: 1em;
   right: 1em;
   color: white;
@@ -44,7 +44,9 @@ img {
 }
 
 #questions {
-  color: grey;
+  color: #e8e8e8;
+  padding-left: 2em;
+  font-weight: normal;
 }
 
 h1 {
