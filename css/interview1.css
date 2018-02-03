@@ -7,6 +7,9 @@ body {
   color: white;
   font-size: 22px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: -0.02rem;
+
+  -webkit-font-smoothing: antialiased;
 }
 
 #container {
@@ -44,7 +47,7 @@ img {
 }
 
 #questions {
-  color: #e8e8e8;
+  color: #7c7c7c;
   padding-left: 2em;
   font-weight: normal;
 }
