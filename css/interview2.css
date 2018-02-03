@@ -299,4 +299,9 @@ and (max-width: 650px) {
   h1 > span {
     margin-right: 0;
   }
+  #credits {
+    padding-left: 2em;
+    font-size: 100%;
+    font-size: 0.5rem;
+  }
 }
