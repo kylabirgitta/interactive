@@ -1,0 +1,172 @@
+/* Frame */
+
+body {
+	background: black;
+}
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+}
+
+.canvas.one {
+	background: rgb(78, 147, 83);
+}
+
+.canvas.two {
+	background: #895222;
+}
+
+/* Still Life */
+
+.object {
+	position: absolute;
+}
+
+#orange {
+    height: 8em;
+    width: 8em;
+    border-radius: 50%;
+    bottom: 11em;
+    right: 30em;
+    background: orange;
+}
+
+#kiwi {
+	height: 3em;
+	width: 4em;
+	border-radius: 50%;
+	/* background: blue; */
+	position: absolute;
+	bottom: 11em;
+  right: 30em;
+	background: rgb(110, 44, 0);
+}
+
+#rose {
+	width: 25em;
+	height: 3em;
+	background: rgba(255,255,255,0.2);
+	position: absolute;
+	bottom: 10em;
+	left: 15em;
+	transform: rotate(-15deg);
+}
+
+#flower {
+	width: 3em;
+	height: 3em;
+	border-radius: 30%;
+	background: red;
+	position: absolute;
+	left: 1em;
+	transform: rotate(deg);
+}
+
+
+#stem {
+	width: 25em;
+	height: 0.5em;
+	background: green;
+	position: absolute;
+	bottom: 1em;
+	left: 3em;
+	transform: rotate(deg);
+}
+
+#vase {
+	bottom: 9em;
+	left: 29em;
+	width: 12em;
+	height: 9em;
+}
+
+#vase #top {
+border-bottom: 100px solid white;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	height: 0;
+	width: 100px;
+}
+
+#vase #middle {
+background: white;
+	height: 20px;
+	width: 200px;
+	background: rgb(240,240,240);
+}
+
+#vase #bottom {
+border-top: 100px solid rgb(230,230,230);
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	height: 0;
+	width: 100px;
+}
+
+#candle {
+	width: 4em;
+	height: 6em;
+	border: 5px solid rgba(255,255,255,0.2);
+	border-radius: 10%;
+	bottom: 8em;
+  right: 13em;
+	background: rgba(255,255,255,0.2);
+}
+
+#candle #wax {
+	background: #d46969;
+	border-radius: 10%;
+	width: 100%;
+	height: 70%;
+	bottom: 0;
+}
+
+#candle #wax-top {
+	background: #cc4b4b;
+	width: 100%;
+	height: 20%;
+	border-radius: 50%;
+	top: 25%;
+}
+
+#candle #flame {
+	background: yellow;
+	width: 13%;
+	height: 25%;
+	border-radius: 50%;
+	top: 0.25em;
+	left: 44%;
+
+#triangle {
+	width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 200px solid yellow;
+	position: absolute;
+	top: 160px;
+	left: 100px;
+}
+
+#square {
+	width: 200px;
+	height: 200px;
+	background: red;
+	top: 160px;
+	left: 350px;
+	position: absolute;
+}
+
+#circle {
+	width: 200px;
+	height: 200px;
+	background: blue;
+	border-radius: 200px;
+	top: 160px;
+	left: 600px;
+	position: absolute;
+}

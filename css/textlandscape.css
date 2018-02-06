@@ -183,3 +183,39 @@ a.sizeup:hover, a.sizeup:active {
   color: #000000;
   /* or pick a different color */
 }
+
+@media screen and (min-width: 300px) {
+    body {
+        background-color: brown;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    body {
+        background-color: blue;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    body {
+        background-color: yellow;        
+    }
+}
+
+@media screen and (min-width: 600px) {
+    body {
+        background-color: green;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    body {
+        background-color: red;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    body {
+        background-color: white;
+    }
+}
