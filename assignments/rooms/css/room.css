@@ -1,0 +1,119 @@
+.st0{fill:#282d4e}.st1{fill:#71abe9}.st2{fill:#342933}.st3{fill:#5792dc}.st4{fill:#393848}.st5{fill:#708bd2}.st6{fill:#6396da}.st7{fill:#5a8dda}.st8{fill:#1d2f4d}.st9{fill:#364378}.st10{fill:#391728}.st11{fill:#331928}
+.st12{fill:#282b41}.st13{fill:#4a0d2a}.st14{fill:#0f1d35}.st15{fill:#cad4e0}
+
+	.st0room2{fill:#b8a8a1}.st1room2{fill:#8b8c93}.st2room2{fill:#c18d61}.st3room2{fill:#495358}.st4room2{fill:#725439}.st5room2{fill:#6e4202}.st6room2{fill:#73802e}
+
+	.st0room3{fill:#ebe3df}.st1room3{fill:#c1a389}.st2room3{fill:none;stroke:#000;stroke-width:.53;stroke-miterlimit:10}.st3room3{fill:#9c6436}.st4room3{fill:#504a41}.st5room3{fill:#1d1814}.st6room3{fill:#72685d}.st7room3{fill:#716860}.st8room3{fill:#796f64}.st9room3{fill:#241f19}.st10room3{fill:#aa8b68}
+	.st11room3{fill:#c3a687}.st12room3{fill:#71604c}.st13room3{fill:#201818}
+
+	.st0building{fill:#9d9a8c}.st1building{fill:#49483d}.st2building{fill:#272b2f}.st3building{fill:#4d5a6a}.st4building{fill:#525556}.st5building{fill:#5b656b}.st6building{fill:#929699}.st7building{fill:#aaaeac}.st8building{fill:#2e363c}.st9building{fill:#3d474e}.st10building{fill:#2d2d2b}.st11building{fill:#282824}
+	.st12building{fill:#111208}.st13building{fill:#130f0c}.st14building{fill:#738993}.st15building{fill:#84959b}.st16building{fill:#82949f}.st17building{fill:#879d9d}.st18building{fill:#879595}.st19building{fill:#94a6a4}.st20building{fill:#98a5a5}.st21building{fill:#94a7a6}.st22building{fill:#98a8ad}.st23building{fill:#97b5b1}
+	.st24building{fill:#39362c}.st25building{fill:#b7beba}.st26building{fill:#c3cbc6}.st27building{fill:#bfc6c4}.st28building{fill:#c6cdcb}.st29building{fill:#c8d0cb}.st30building{fill:#c9cbca}.st31building{fill:#c9cfcd}.st32building{fill:#d1d2d3}.st33building{fill:#12130e}.st34building{fill:#14150d}.st35building{fill:#13160c}
+	.st36building{fill:#110f08}.st37building{fill:#fbfbf1}.st38building{fill:#393b33}.st39building{fill:#1c1b16}.st40building{fill:#070705}.st41building{fill:#1a1b17}.st42building{fill:#15170f}.st43building{fill:#151611}.st44building{fill:#20221d}.st45building{fill:#292a20}.st46building{fill:#1c1e16}.st47building{fill:#171a17}
+	.st48building{fill:#272c27}.st49building{fill:#424c54}.st50building{fill:#32332d}.st51building{fill:#333227}.st52building{fill:#3b4349}.st53building{fill:#40464b}.st54building{fill:#6b5944}.st55building{fill:#1e2322}.st56building{fill:#444645}.st57building{fill:#6a6967}.st58building{fill:#3a3b3b}.st59building{fill:#2e2e2b}
+	.st60building{fill:#232528}.st61building{fill:#5e6469}.st62building{fill:#b9bdba}.st63building{fill:#090c11}.st64building{fill:#606769}.st65building{fill:#4f5764}.st66building{fill:#90a5ba}.st67building{fill:#474a4a}
+
+		.st0room4{fill:#cccdd6}.st1room4{fill:#6c5239}.st2room4{fill:#5f5e58}.st3room4{fill:#a17b42}.st4room4{fill:#75736f}.st5room4{fill:#574a3a}.st6room4{fill:#594024}.st7room4{fill:#4f4d53}.st8room4{fill:#5f4021}.st9room4{fill:#7e5e40}.st10room4{fill:#635843}.st11room4{fill:#907e76}.st12room4
+		{fill:#997f69}.st13room4{fill:#5c5654}
+
+			.st0room5{fill:#37312b}.st1room5{fill:#745942}.st2room5{fill:#8c6f56}.st3room5{fill:#534339}.st4room5{fill:#bdb9af}.st5room5{fill:#9a978f}.st6room5{fill:#3a3d44}.st7room5{fill:#25252b}.st8room5{fill:#333337}.st9room5{fill:#a58e68}
+
+p {
+	margin: 0 !important;
+}
+
+#judd {
+	position: -webkit-sticky;
+	width: 600px;
+	padding: 5px;
+	align: left;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 300;
+	font-size: 26px;
+	letter-spacing: normal;
+	-webkit-font-smoothing: antialiased;
+}
+
+#letter {
+	width: 800px;
+	padding: 5px;
+	align: left;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 300;
+	font-size: 26px;
+	letter-spacing: normal;
+	-webkit-font-smoothing: antialiased;
+	text-indent: 26px;
+	line-height: 30px;
+}
+
+#judd a {
+	color: #000000;
+	text-decoration: none;
+	}
+
+#judd a:hover {
+	color: rgb(183,183,183);
+	}
+
+#room1 {
+	display: absolute;
+	width: 800px;
+	margin: 0;
+}
+
+#rooms {
+	display: absolute;
+}
+
+#building {
+	width: 800px;
+	display: absolute;
+	margin: 0;
+}
+
+#singleroom {
+	display: inline-block;
+	margin: 5px;
+	width: 300px;
+}
+
+svg path.st7building:hover {
+    fill: white;
+}
+svg path.st6building:hover {
+    fill: white;
+}
+svg path.st5building:hover {
+    fill: white;
+}
+svg path.st6room2:hover {
+    fill: white;
+}
+svg path.st13:hover {
+    fill: white;
+}
+svg path.st8room3:hover {
+    fill: white;
+}
+svg path.st8room3:hover {
+    fill: white;
+}
+svg path.st4building:hover {
+    fill: white;
+}
+svg path.st7room4:hover {
+    fill: white;
+}
+svg path.st6room5:hover {
+    fill: white;
+}
+svg path.st3building:hover {
+    fill: white;
+}
+svg:hover path {
+  transition: all ease 0.2s;
+}
+svg path {
+  transition: all ease 0.2s;
+}
