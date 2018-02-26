@@ -19,12 +19,14 @@ div {
   text-align: center;
   -webkit-transition: 2s ease-in;
   letter-spacing: .5px;
+  margin-top: 20%;
 }
 #column-two {
   /* background: lime; */
   left: 33.333%;
   font-size: 20px;
   letter-spacing: .5px;
+  margin-top: 20%;
 }
 #column-three {
   /* background: blue; */
@@ -32,6 +34,7 @@ div {
   font-size: 20px;
   text-align: center;
   letter-spacing: .5px;
+  margin-top: 20%;
 }
 
 
