@@ -1,0 +1,130 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Slot Machine (Class Demo)</title>
+  <link rel="stylesheet" href="decisions.css" />
+
+</head>
+
+<body>
+
+<div id="column-one">
+  <p id="sentence"></p>
+</div>
+
+<div id="column-two">
+  <p id="sentencetwo"></p>
+  <!-- <button style="" onclick="sentence()">?</button> -->
+</div>
+
+<div id="column-three">
+  <p id="sentencethree"></p>
+</div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript">
+
+    var nouns = ["yes", "no", "maybe", "definitely", "100%", "nope", "by no means no", "negative", "absolutely", "possibly"];
+    var verbs = ["because", "and", "but", "unless", "so", "as long as", "until", "since", "if", "even if"];
+    var adjectives = ["you know you can", "it's the first time", "it's the last time", "it's in the morning", "you're busy", "you know you want to", "it's late", "you are tired", "you have time", "you have better things to do"];
+
+
+  function randGen() {
+    return Math.floor(Math.random() * nouns.length);
+    return Math.floor(Math.random() * verbs.length);
+    return Math.floor(Math.random() * adjectives.length);
+
+    console.log(randGen)
+
+  }
+
+
+  function sentence() {
+    var rand1 = Math.floor(Math.random() * 10);
+    // var rand2 = Math.floor(Math.random() * 10);
+    // var rand3 = Math.floor(Math.random() * 10);
+    //                var randCol = [rand1,rand2,rand3,rand4,rand5];
+    //                var i = randGen();
+    // var content = nouns[rand1] + ", " + " " + verbs[rand2] + " " + adjectives[rand3] + ".";
+
+  var content = nouns[rand1] + ",";
+
+    document.getElementById('sentence').innerHTML = content;
+  };
+  sentence();
+
+
+  function sentencetwo() {
+    var rand1 = Math.floor(Math.random() * 10);
+    var rand2 = Math.floor(Math.random() * 10);
+    // var rand3 = Math.floor(Math.random() * 10);
+    //                var randCol = [rand1,rand2,rand3,rand4,rand5];
+    //                var i = randGen();
+    // var content = nouns[rand1] + ", " + " " + verbs[rand2] + " " + adjectives[rand3] + ".";
+
+  var content = verbs[rand2];
+
+    document.getElementById('sentencetwo').innerHTML = content;
+  };
+  sentencetwo();
+
+  function sentencethree() {
+    var rand1 = Math.floor(Math.random() * 10);
+    var rand2 = Math.floor(Math.random() * 10);
+    var rand3 = Math.floor(Math.random() * 10);
+    //                var randCol = [rand1,rand2,rand3,rand4,rand5];
+    //                var i = randGen();
+    // var content = nouns[rand1] + ", " + " " + verbs[rand2] + " " + adjectives[rand3] + ".";
+
+  var content = adjectives[rand3] + ".";
+
+    document.getElementById('sentencethree').innerHTML = content;
+  };
+  sentencethree();
+
+
+
+//   var NumberOfWords = 9
+//
+// var words = new BuildArray(NumberOfWords)
+//
+// // Use the following variables to
+// // define your random words:
+// words[1] = "yes"
+// words[2] = "no"
+// words[3] = "maybe"
+// words[4] = "definitely"
+// words[5] = "100%"
+// words[6] = "nope"
+// words[7] = "by no means no"
+// words[8] = "negative"
+// words[9] = "absolutely"
+//
+// function BuildArray(size){
+// this.length = size
+// for (var i = 1; i <= size; i++){
+// this[i] = null}
+// return this
+// }
+//
+// function PickRandomWord(frm) {
+// // Generate a random number between 1 and NumberOfWords
+// var rnd = Math.ceil(Math.random() * NumberOfWords)
+//
+// // Display the word inside the text box
+// frm.WordBox.value = words[rnd]
+// }
+
+$('button').click(function(){
+      randGen();
+    });
+
+  </script>
+
+</body>
+
+</html>

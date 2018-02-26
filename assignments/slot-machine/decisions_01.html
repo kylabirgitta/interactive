@@ -1,0 +1,61 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Decision maker</title>
+  <link rel="stylesheet" href="decisions.css" />
+  <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div id="column-one">
+  <p id="decision"></p>
+</div>
+
+<div id="column-two">
+  <p id="decisiontwo"></p>
+  <form action="/action_page.php">
+    <input type="text" id="fname" name="firstname" placeholder="Your yes/no question">
+  </form>
+  <button onclick="decision()">?</button>
+</div>
+
+<div id="column-three">
+  <p id="decisionthree"></p>
+</div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript">
+
+  var first = ["Yes", "No", "Maybe", "Definitely", "100%", "Nope", "By no means no", "Negative", "Absolutely", "Possibly"];
+  var second = ["because", "and", "but", "unless", "so", "as long as", "until", "since", "if", "even if"];
+  var third = ["you know you can", "it's the first time", "it's the last time", "it's in the morning", "you're busy", "you know you want to", "it's late", "you are tired", "you have time", "you have better things to do"];
+
+  function randGen() {
+    return Math.floor(Math.random() * first.length);
+    return Math.floor(Math.random() * second.length);
+    return Math.floor(Math.random() * third.length);
+  }
+
+  function decision() {
+    var rand1 = Math.floor(Math.random() * 10);
+    var content = first[rand1] + ",";
+    document.getElementById('decision').innerHTML = content;
+    var rand2 = Math.floor(Math.random() * 10);
+    var content = second[rand2];
+    document.getElementById('decisiontwo').innerHTML = content;
+    var rand3 = Math.floor(Math.random() * 10);
+    var content = third[rand3] + ".";
+    document.getElementById('decisionthree').innerHTML = content;
+  };
+
+  </script>
+
+</body>
+
+</html>
