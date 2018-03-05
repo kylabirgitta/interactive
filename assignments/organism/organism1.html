@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Stingray</title>
+  <link rel="stylesheet" href="organism1.css" />
+  <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <button></button>
+
+
+
+<div class="stingray" id="swing">
+<div class="mouth" id="swing"></div>
+<div class="egg" id="swing"></div>
+<div class="bodybottom" id="swing"></div>
+<div class="tail" id="swing"></div>
+<div class="eyes" id="swing"><div class="eye"></div>
+<div class="eyetwo"></div></div>
+<div class="spots">
+  <div class="dot" id="glow"></div>
+  <div class="dot2" id="glow"></div>
+  <div class="dot3" id="glow"></div>
+</div>
+<div class="spots2">
+  <div class="dot" id="glow"></div>
+  <div class="dot2" id="glow"></div>
+  <div class="dot3" id="glow"></div>
+</div>
+<div class="spots3">
+  <div class="dot" id="glow"></div>
+  <div class="dot2" id="glow"></div>
+  <div class="dot3" id="glow"></div>
+</div>
+<div class="spots4">
+  <div class="dot" id="glow"></div>
+  <div class="dot2" id="glow"></div>
+  <div class="dot3" id="glow"></div>
+</div>
+<div class="spots5">
+  <div class="dot" id="glow"></div>
+  <div class="dot2" id="glow"></div>
+  <div class="dot3" id="glow"></div>
+</div>
+<div class="spots6">
+  <div class="dot" id="glow"></div>
+  <div class="dot2" id="glow"></div>
+  <div class="dot3" id="glow"></div>
+</div>
+</div>
+
+<video autoplay muted loop id="myVideo">
+  <source src="stingrayvid.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="organism.js"></script>
+  <script type="text/javascript">
+
+
+$(document).ready(function(){
+
+  // by default, light is on
+  var state = 'on';
+
+  // click the button
+  $('button').click(function(){
+
+      if(state == 'off'){
+        // turn on the lights
+        $('body').removeClass('off');
+        $('body').addClass('on');
+        $('#glow').removeAttr('id');
+        $('body').css('background','#EAEDED');
+        state = 'on';
+      }
+
+      else {
+        // turn off the lights
+        $('body').removeClass('on');
+        $('body').addClass('off');
+        $('body').css('background','none');
+        // $('#glow').addAttr('on');
+        state = 'off';
+      }
+
+  });
+
+});
+</script>
+
+</body>
+
+</html>

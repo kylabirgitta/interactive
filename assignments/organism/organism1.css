@@ -1,0 +1,271 @@
+body, html {
+  font-family: Arial, sans-serif;
+  height: 100%;
+  overflow: hidden;
+  background: #EAEDED;
+}
+
+body {
+  margin: 0;
+  transition: all 300ms ease-in;
+}
+
+body.on {
+  background: #EAEDED;
+}
+
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+button {
+    position: fixed;
+    top: 3em;
+    right: 3em;
+    width: 3em;
+    height: 3em;
+    background: blue;
+    border: 1px solid transparent;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0 0 2.25em 0.5em #0B24FB;
+}
+
+button.off {
+  background: white;
+}
+
+
+
+.egg {
+    width: 200px;
+    height: 200px;
+    background: red;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50%;
+    margin: auto;
+    position: absolute;
+    left: 1px;
+    top: 20px;
+    background: #aa994f;
+  }
+
+.tail {
+    border-radius: 30px;
+    background: #aa994f;
+    padding: 10px;
+    width: 2px;
+    height: 200px;
+    margin: auto;
+    position: absolute;
+    top: 222px;
+    left: 88px;
+}
+
+.mouth {
+    width: 80px;
+    height: 80px;
+    background: red;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    margin: auto;
+    position: absolute;
+    left: 61px;
+    background: #aa994f;
+  }
+
+  .bodybottom {
+      width: 164px;
+      height: 150px;
+      background: red;
+      -moz-border-radius: 50px;
+      -webkit-border-radius: 50px;
+      border-radius: 50%;
+      margin: auto;
+      position: absolute;
+      left: 19px;
+      top: 86px;
+      background: #aa994f;
+
+  }
+
+  .eyes {
+      position: absolute;
+      width: 80px;
+      height: 80px;
+      left: 61px;
+      top: 47px;
+  }
+
+  .eye {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      background: #000;
+      border-radius: 50%;
+      left: 10px;
+      top: 0;
+  }
+
+  .eyetwo {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      background: #000;
+      border-radius: 50%;
+      left: 54px;
+      top: 0;
+  }
+
+  .eye.off {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      background: #aa994f;
+      border-radius: 50%;
+      left: 10px;
+      top: 0;
+  }
+
+  .eyetwo.off {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      background: #aa994f;
+      border-radius: 50%;
+      left: 54px;
+      top: 0;
+  }
+
+  .dot {
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      background: blue;
+      border-radius: 50%;
+      left: 40px;
+      top: 100px;
+
+  }
+
+#glow {
+  box-shadow: 0 0 8px 2px #0B24FB;
+}
+
+  .dot2 {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  background: blue;
+  border-radius: 50%;
+  left: 94px;
+  top: 131px;
+}
+
+.dot3 {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: blue;
+  border-radius: 50%;
+  left: 61px;
+  top: 136px;
+}
+
+
+.spots {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 30px;
+  left: 9px;
+}
+
+.spots2 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 51px;
+    left: 67px;
+    transform: rotate(90deg);
+}
+
+.spots3 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 38px;
+    left: 82px;
+    transform: rotate(10deg);
+}
+
+.spots4 {
+    width: 124px;
+    height: 100px;
+    position: absolute;
+    top: 160px;
+    left: 82px;
+    transform: rotate(160deg);
+}
+
+.spots5 {
+    width: 124px;
+    height: 100px;
+    position: absolute;
+    top: 132px;
+    left: 82px;
+    transform: rotate(200deg);
+}
+
+.spots6 {
+    width: 124px;
+    height: 100px;
+    position: absolute;
+    top: 67px;
+    left: 11px;
+    transform: rotate(3deg);
+}
+
+.stingray {
+  position: relative;
+  top: 150px;
+  height: 600px;
+  width: 200px;
+  margin: auto;
+}
+
+
+#swing {
+    animation: swing ease-in-out 3s infinite alternate;
+    transform-origin: center -5px;
+}
+
+@keyframes swing {
+    0% { transform: rotate(2deg); }
+    100% { transform: rotate(-2deg); }
+}
+
+#flash {
+  color:#f2f;
+	-webkit-animation: flash linear 0.2s infinite;
+	animation: flash linear 0.2s infinite;
+}
+@-webkit-keyframes flash {
+	0% { opacity: 1; }
+	50% { opacity: .1; }
+	100% { opacity: 1; }
+}
+@keyframes flash {
+	0% { opacity: 1; }
+	50% { opacity: .1; }
+	100% { opacity: 1; }
+}
