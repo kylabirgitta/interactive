@@ -1,0 +1,128 @@
+body {
+    width: 100%;
+    margin: 0px;
+}
+
+/* for letters hopnop */
+
+.letter {
+ height: 250px;
+ width: 150px;
+ padding: 0px;
+ margin: 10px;
+ display: inline-flex;
+ position: relative;
+}
+
+.lettermid {
+ height: 250px;
+ width: 200px;
+ padding: 0px;
+ margin: 10px;
+ display: inline-flex;
+ position: relative;
+}
+
+.letterwide {
+ height: 250px;
+ width: 250px;
+ padding: 0px;
+ margin: 10px;
+ display: inline-flex;
+ position: relative;
+}
+
+.combline1 {
+ height: 250px;
+ width: 50px;
+ display: inline-block;
+ padding: 0px;
+}
+
+.object {
+  position: absolute;
+  display: block;
+  background: grey;
+}
+
+.object2 {
+  position: absolute;
+  display: block;
+  background: grey;
+}
+
+#circle1 {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: grey;
+}
+
+#square1 {
+  height: 50px;
+  width: 50px;
+  border-radius: 0%;
+  top: 50px;
+}
+
+#circle1-2 {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  top: 100px;
+}
+
+#square1-2 {
+  height: 50px;
+  width: 50px;
+  border-radius: 0%;
+  top: 150px;
+}
+
+#circle1-3 {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  top: 200px;
+}
+
+.combline2 {
+ height: 250px;
+ width: 50px;
+ display: inline-block;
+ padding: 0px;
+}
+
+#square2 {
+  height: 50px;
+  width: 50px;
+  border-radius: 0%;
+}
+
+#circle2 {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  top: 50px;
+}
+
+#square2-2 {
+  height: 50px;
+  width: 50px;
+  border-radius: 0%;
+  top: 100px;
+}
+
+#circle2-2 {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  top: 150px;
+}
+
+#square2-3 {
+  height: 50px;
+  width: 50px;
+  border-radius: 0%;
+  top: 200px;
+}
