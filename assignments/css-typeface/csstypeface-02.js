@@ -1,4 +1,4 @@
-$("button").click(function(){
+$(".button2").click(function(){
   var circleWidth = Math.floor(Math.random() * 15);
   var circleColor = Math.floor(Math.random() * 10);
   console.log(circleWidth);
