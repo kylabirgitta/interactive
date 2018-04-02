@@ -100,11 +100,13 @@ hr {
 .scalesquare1 {
   height: 50px;
   width: 40px;
+  margin-left: 5px;
 }
 
 .scalesquare2 {
   height: 40px;
   width: 50px;
+  margin-left: 5px;
 }
 
 .scalecircle {
