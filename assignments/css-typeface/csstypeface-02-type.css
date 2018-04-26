@@ -1,0 +1,219 @@
+/* REQUIRED CSS --- DO NOT DELETE */
+
+.letter-definition {
+	display: none;
+}
+
+/* CUSTOM TYPEFACE CSS --- INSERT YOUR OWN HERE */
+
+.letter {
+  display: inline-block;
+	height: 220px;
+	margin: 8px;
+}
+
+.word {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.space {
+	width: 112px;
+	height: 220px;
+}
+
+
+body {
+    width: 100%;
+    margin: 0px;
+    background-color: black;
+    /* cursor: none; */
+}
+
+/* .cursor {
+	background: #fff;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	position: absolute;
+	cursor: none;
+} */
+
+
+
+button {
+    position: fixed;
+    right: 1em;
+    width: 50px;
+    height: 50px;
+    background: white;
+    border: 1px solid transparent;
+    outline: none;
+    cursor: pointer;
+    mix-blend-mode: difference;
+    font-size: 24px;
+    color: black;
+}
+
+.button1 {
+  top: 1em;
+}
+
+
+.button2 {
+  bottom: 1em;
+  border-radius: 50%;
+}
+
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    -webkit-margin-before: 70px;
+    -webkit-margin-after: 40px;
+    -webkit-margin-start: auto;
+    -webkit-margin-end: auto;
+    overflow: hidden;
+    /* border-width: 20px; */
+    /* border-color: white; */
+    border: 0;
+    color: white;
+    background-color: white;
+    height: 1px;
+}
+
+.myletter {
+ height: 250px;
+ width: 150px;
+ padding: 0px;
+ margin: 60px;
+ display: inline-flex;
+ position: relative;
+}
+
+.lettermid {
+ height: 250px;
+ width: 200px;
+ padding: 0px;
+ margin: 60px;
+ display: inline-flex;
+ position: relative;
+}
+
+.letterwide {
+ height: 250px;
+ width: 250px;
+ padding: 0px;
+ margin: 60px;
+ display: inline-flex;
+ position: relative;
+}
+
+.column {
+ height: 250px;
+ width: 50px;
+ display: inline-block;
+ padding: 0px;
+}
+
+.object {
+  position: absolute;
+  display: block;
+  background: blue;
+  mix-blend-mode: difference;
+}
+
+.scalesquare1 {
+  height: 50px;
+  width: 40px;
+  margin-left: 5px;
+  transform: translate(-50%, -50%);
+}
+
+.scalesquare2 {
+  height: 40px;
+  width: 50px;
+  margin-left: 5px;
+  transform: translate(-50%, -50%);
+}
+
+.scalecircle {
+  height: 50px;
+  width: 50px;
+  background: white;
+  transform: translate(-40%, -50%);
+
+}
+
+.scalecircle2 {
+  height: 50px;
+  width: 50px;
+  background: white;
+}
+
+.circle1 {
+  /* height: 50px;
+  width: 50px; */
+  border-radius: 50%;
+}
+
+.square2 {
+  /* height: 50px;
+  width: 50px; */
+  border-radius: 0%;
+  top: 50px;
+}
+
+.circle3 {
+  /* height: 50px;
+  width: 50px; */
+  border-radius: 50%;
+  top: 100px;
+}
+
+.square4 {
+  /* height: 50px;
+  width: 50px; */
+  border-radius: 0%;
+  top: 150px;
+}
+
+.circle5 {
+  /* height: 50px;
+  width: 50px; */
+  border-radius: 50%;
+  top: 200px;
+}
+
+.square1 {
+  /* height: 50px;
+  width: 50px; */
+  border-radius: 0%;
+}
+
+.circle2 {
+  /* height: 50px;
+  width: 50px; */
+  border-radius: 50%;
+  top: 50px;
+}
+
+.square3 {
+  /* height: 50px; */
+  /* width: 50px; */
+  border-radius: 0%;
+  top: 100px;
+}
+
+.circle4 {
+  /* height: 50px;
+  width: 50px; */
+  border-radius: 50%;
+  top: 150px;
+}
+
+.square5 {
+  /* height: 50px;
+  width: 50px; */
+  border-radius: 0%;
+  top: 200px;
+}

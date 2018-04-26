@@ -3,18 +3,23 @@
   src: url('fonts/Mongrel-Grotesque-Regular-Webfont.woff');
 }
 
+html {
+    background: #ffffff;
+}
+
 body {
   background: white;
   font-family: Helvetica, sans-serif;
   font-size: 16px;
-  padding-left: 2em;
+  margin-left: 30px;
   letter-spacing: -0.01rem;
   -webkit-font-smoothing: antialiased;
   line-height: 1.2;
   width: 600px;
+  margin-top: 25px;
 }
 
-/* .webring {
+/* . {
   position: fixed;
   top: 1em;
   right: 1.5em;
@@ -46,8 +51,9 @@ h1 {
   font-weight: normal;
   text-align: left;
   font-size: 26px;
-  line-height: 1.1;
-  margin-bottom: 1.5em;
+  line-height: 30px;
+  margin-bottom: 4px;
+  margin-top: 4px;
   text-indent: 0rem;
 }
 
@@ -55,8 +61,10 @@ h2 {
   font-weight: normal;
   text-align: left;
   font-size: 16px;
-  line-height: 1.1;
+  line-height: 4px;
   text-indent: 0.6em;
+  color: grey;
+  margin-top: 18px;
 }
 
 p {
@@ -70,7 +78,7 @@ a {
 }
 
 a:hover {
-  color: #85929E;
+  color: lightsalmon;
 }
 
 *::selection {

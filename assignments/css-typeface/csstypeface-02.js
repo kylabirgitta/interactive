@@ -1,3 +1,6 @@
+$(document).ready(function(){
+
+
 $(".button2").click(function(){
   var circleWidth = Math.floor(Math.random() * 15);
   var circleColor = Math.floor(Math.random() * 10);
@@ -13,7 +16,6 @@ $(".button2").click(function(){
   $(".scalesquare").css("backgroundColor", "blue");
 });
 
-$(document).ready(function(){
 
   $(".button1").click(function(){
     randomColor();
